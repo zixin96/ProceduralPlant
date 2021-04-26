@@ -2,9 +2,18 @@ function Branch(parent, pos, dir) {
   this.pos = pos;
   this.parent = parent;
   this.dir = dir;
+  this.count = 0;
+  this.origDir = dir.copy();
+  this.len = 5;
+
+  this.reset = function() {
+    this.dir = this.origDir.copy();
+    this.count = 0;
+  }
   
   this.next = function() {
-    var nextPos = p5.Vector.add(this.pos, this.dir);
+    var nextDir = p5.Vector.mult(this.dir, this.len);
+    var nextPos = p5.Vector.add(this.pos, nextDir);
     var nextBranch = new Branch(this, nextPos, this.dir.copy());
     return nextBranch;
   }
