@@ -76,6 +76,8 @@ rules[1] = {
 
 ![SpaceCo](SpaceCo.gif)
 
+**Source code**: https://github.com/zixin96/ProceduralPlant
+
 ## Recursive plant: 
 
 ![OOPPlant](OOPPlant.gif)
