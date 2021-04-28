@@ -83,3 +83,9 @@ rules[1] = {
 ![OOPPlant](OOPPlant.gif)
 
 **Source code**: https://editor.p5js.org/zixin96/sketches/OfH6Ck3yi
+
+## References
+
+[1] CodingTrain. Coding Challenge #14-17.
+    Used under MIT License.
+    https://github.com/CodingTrain/website
